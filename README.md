@@ -1,4 +1,4 @@
-#🔐 Decodificador-de-texto 🔐
+# 🔐 *Decodificador-de-texto* 🔐
 Bem-vindo ao Decodificador de Texto, um projeto divertido para criptografar e descriptografar mensagens de uma forma única! Este projeto é parte do CHALLENGE CRIPTOGRAFIA ONE, contém uma página da web simples, mas poderosa, que permite aos usuários transformar suas mensagens em uma série de caracteres misteriosos e, em seguida, desvendá-las de volta à sua forma original.
 
 ✨ Recursos:

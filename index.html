@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/stl.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="shortcut icon" href="imgs/logo_sem_fundo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Decodificador de texto</title>
+</head>
+
+<body>
+	<header>
+		<img src="imgs/logo_sem_fundo.png" alt="Logo da Alura">
+	</header>
+	
+	<dialog id="dialog-box">
+		<p id="dialog-text"></p>
+		<button onclick="closeDialog()" id="dialog-close" class="close-btn">Fechar</button>
+	</dialog>
+<main>
+	<section>
+ 	<div class="textInput">
+		<textarea id="descriptografar-area" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+ 	</div>
+	 <div class="descricao__container">
+		<img src="imgs/Exclamation-circle.svg" class="span-image">
+		<a type="text" class="descricao"> Apenas letras minúsculas e sem acento</a>
+   </div>
+   <div class="buttons">
+		<button onclick="encriptar()" class="encriptar-btn" id="encriptar">Criptografar</button>
+		<button onclick="descriptografar()" class="descriptografar-btn" id="descriptografar">Descriptografar</button>
+   </div>
+   </section>
+	<aside>
+		<div class="showing-content">
+			<textarea id="text-content" cols="10" rows="30"></textarea>
+			<button onclick="copy()" class="copy-btn" id="copy-btn">Copiar texto</button>
+		</div>
+	<div class="no-content">
+		<img class="alura-design" src="imgs/image.png" alt="pessoa com lupa observando diamante">
+		<h3 >Nenhuma mensagem encontrada</h3>
+		<p> Digite o texto que será criptografado ou descriptografado </p>
+ 	</div>	
+	</aside>
+</main>
+<footer>
+	<p>Projeto desenvolvido por Milena Brandão</p>
+	
+	<section class="social-links">
+		<ul>
+			<li>
+				<a href="https://github.com/Milena-Brandao" target="_blank">
+					<i class="bi bi-github github-icon"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/milena-brand%C3%A3o/" target="_blank">
+					<i class="bi bi-linkedin linkedin-icon"></i>
+				</a>
+			</li>	
+			<li>
+				<a href="https://www.instagram.com/milenabrand_/" target="_blank">
+					<i class="bi bi-instagram instagram-icon"></i>
+				</a>
+			</li>
+			<li>
+				<a href="mailto:milenabrandao.lima@gmail.com" target="_blank">
+					<i class="bi bi-envelope envelope-icon"></i>
+				</a>
+			</li>			
+		</ul>
+	</section>
+	
+	 
+</footer>
+<script src="app/js.js"></script>
+</body>
+</html>
